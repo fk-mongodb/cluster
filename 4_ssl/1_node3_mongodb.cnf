@@ -1,0 +1,16 @@
+[ req ]
+default_bits       = 2048
+distinguished_name = req_distinguished_name
+req_extensions     = req_ext
+prompt             = no
+
+[ req_distinguished_name ]
+C  = SG
+CN = 172.31.28.62
+
+[ req_ext ]
+subjectAltName = @alt_names
+
+[ alt_names ]
+DNS.1 = ip-172-31-28-62.ap-southeast-1.compute.internal
+IP.1 = 172.31.28.62
