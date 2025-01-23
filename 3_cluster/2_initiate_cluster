@@ -1,0 +1,16 @@
+rs.initiate({
+  _id: "fk0",
+  members: [{
+      _id: 0,
+      host: "ip-172-31-17-247.ap-southeast-1.compute.internal:27017"
+    },
+    {
+      _id: 1,
+      host: "ip-172-31-25-131.ap-southeast-1.compute.internal:27017"
+    },
+    {
+      _id: 2,
+      host: "ip-172-31-28-62.ap-southeast-1.compute.internal:27017"
+    }
+  ]
+})
